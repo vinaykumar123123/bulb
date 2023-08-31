@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <title>BULB</title>
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<body><center>
+    <h1>CLICK THE BUTTON TO ON AND OFF THE BULB..!</h1>
+    <div>
+        <img id="image" src="bulb.jpg" alt="off">
+    </div>
+    <div>
+        <button id="on" onclick="bulb_on()">ON</button>
+        <button id="off" onclick="bulb_off()">OFF</button>
+    </div>
+    <script>
+        function bulb_on(){
+    document.getElementById('image').src="bulb1.jpg";
+}
+       function bulb_off(){
+    document.getElementById('image').src ="bulb.jpg";
+}
+    </script>
+</center>
+</body>
+</html>
